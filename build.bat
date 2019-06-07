@@ -8,8 +8,8 @@ REM
 REM Copyright Contributors to the Zowe Project.
 set MVD_DESKTOP_DIR=..\..\zlux-app-manager\virtual-desktop
 
-copy .\org.zowe.filetransfer.json ..\zlux-example-server\plugins\org.zowe.filetransfer.json
-copy .\org.zowe.filetransfer.json ..\zlux-example-server\deploy\instance\ZLUX\plugins
+copy .\org.zowe.filetransfer.json ..\zlux-app-server\plugins\org.zowe.filetransfer.json
+copy .\org.zowe.filetransfer.json ..\zlux-app-server\deploy\instance\ZLUX\plugins
 
 REM copy .\common\FTATypes.ts .\nodeServer\ts\FTATypes.ts
 REM copy .\common\FTATypes.ts .\webClient\src\app\services\FTATypes.ts
